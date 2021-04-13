@@ -1,5 +1,18 @@
+# eclipse values
+.settings/
+.classpath
+.project
+
+# Remove folder
+BBH_script/
+Fichier Yersiniomics/
+
 # Compiled class file
-*.class
+bin/
+target/
+
+# MACOSX files
+.DS_Store
 
 # Log file
 *.log
@@ -11,7 +24,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+.jar
 *.war
 *.nar
 *.ear

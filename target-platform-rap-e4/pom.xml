@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<!--  Setting up parent project -->
+	<parent>
+		<groupId>rap.e4.export</groupId>
+		<artifactId>general</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<!--  Setting up properties of this target platform -->
+	<artifactId>target-platform-rap-e4</artifactId>
+	<packaging>eclipse-target-definition</packaging>
+
+</project>
