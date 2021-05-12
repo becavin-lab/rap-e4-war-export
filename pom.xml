@@ -92,8 +92,8 @@
 
 	<!-- Add the target-plateform, plugins and features of the project -->
 	<modules>
-		<module>target-platform-rap-e4</module>
-		<module>rap.e4.export.demo</module>
+		<module>target-platform-rap-e4</module> 
+		<module>rap.e4.export.demo</module>  
 		<module>rap.e4.export.feature</module>
 	</modules>
 
