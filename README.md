@@ -4,6 +4,7 @@ An example eclipse RAP e4 project which can be export to .war file
 The war export tool is no longer maintain for Eclipse RAP
 
 To export your Eclipse RAP e4 project into war, we use Maven Tycho.
+
 0 - Install Eclipse for RCP and RAP developpers. 
 
 1 - Clone the project in your working directory
