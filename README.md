@@ -12,9 +12,13 @@ To export your Eclipse RAP e4 project into war, we use Maven Tycho.
 2 - Click on File > Import > General : Projects from Folder or Archive.
 Select the Directory where you cloned rap-e4-war-export
 It should find 4 plugins:
+
 rap-e4-war-export
+
 rap-e4-war-export/rap.e4.export.demo
+
 rap-e4-war-export/rap.e4.export.feature
+
 rap-e4-war-export/target-platform-rap-e4
 
 Click on Finish.
