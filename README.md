@@ -36,6 +36,7 @@ Go to rap.e4.export.demo > plugin.xml and click on Overview > Update the classpa
 In the "Problems" View of Eclipse you should have no errors.
 
 5 - Click on "Launch a RAP application" ! A browser at the adress : http://127.0.0.1:10888/ (the port might be different) should open. Update the browser, you should have an Eclipse RAP browser.
+
 More explanation, when running your plug-ins it uses the file "rap.e4.export.demo.launch" to configure all run configuration (port, VM options, bundles dependencies).
 IF SOMETHING IS WRONG AND THE WEBSITE IS NOT OPENING IT IS MOSTLY DUE TO "rap.e4.export.demo.launch".
 
