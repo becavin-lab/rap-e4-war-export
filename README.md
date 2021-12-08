@@ -62,5 +62,9 @@ mvn clean install
 
 For maven install use the appropriate package installer apt-get, yum, brew, etc...
 
+8 - Deploy your .war on your Apache Tomcat server ! 
+
+9 - Congrats !!!
+
 
 
