@@ -69,7 +69,7 @@ For maven install use the appropriate package installer apt-get, yum, brew, etc.
 !! This tool has been tested on Apache Tomcat 8 and 9, running on JavaSE 11 !!
 On recent JavaSE (17), I was experiencing access problem to the OSGI platform. So try it at your own risk.
 
-For test purpose, **rap-e4-demo.war** is provided at the root of the git directory.
+For test purpose, **rap-e4-demo.war** is provided at the root of the git folder.
 
 9 - Congrats !!!
 
