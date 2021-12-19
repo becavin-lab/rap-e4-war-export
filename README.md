@@ -64,6 +64,9 @@ For maven install use the appropriate package installer apt-get, yum, brew, etc.
 
 8 - Deploy your .war on your Apache Tomcat server ! 
 
+!! This tool has been tested on Apache Tomcat 8 and 9, running on JavaSE 11 !!
+On recent JavaSE I was experiencing access problem to the OSGI platform.
+
 9 - Congrats !!!
 
 
