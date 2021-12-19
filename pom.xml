@@ -60,6 +60,7 @@
 				<configuration>
 					 
 					<!-- Optional set the Java version your are using -->
+					
 					<target>
 						<artifact>
 							<groupId>rap.e4.export</groupId>
