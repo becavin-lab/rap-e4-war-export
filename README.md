@@ -15,21 +15,21 @@ To export your Eclipse RAP e4 project into war, we use Maven Tycho.
 Select the Directory where you cloned rap-e4-war-export
 It should find 4 plugins:
 
-rap-e4-war-export
+![Import project](https://github.com/becavin-lab/rap-e4-war-export/blob/main/wiki/import_project.png)
 
-rap-e4-war-export/rap.e4.export.demo
-
-rap-e4-war-export/rap.e4.export.feature
-
-rap-e4-war-export/target-platform-rap-e4
 
 Click on Finish.
 You should have the 3 plugins imported into on big project = rap-e4-war-export.
+
+![Project explorer](https://github.com/becavin-lab/rap-e4-war-export/blob/main/wiki/project_explorer.png)
+
 
 3 - Open target-platform-rap-e4/target-platform-rap-e4.target
 The target platform is included in our project. This is the working environment in which Eclipse will pick all java and Eclipse RAP dependencies needed. 
 In the target definition item (target-platform-rap-e4.target > Definition), check that it indicates around 300 plug-ins available. Otherwise click on "Reload". If no plug-ins is available then Eclipse will not know where to find the dependencies.
 As soon as you have the plug-ins available, click on the top-right corner : "Set as active Target Platform".
+
+![Target platform](https://github.com/becavin-lab/rap-e4-war-export/blob/main/wiki/target_platform.png)
 
 The operation is complete if in "rap.e4.export.demo" there are no dependencies error. Meaning that all plug-ins have been found by Eclipse in the Target platform.
 
@@ -37,7 +37,12 @@ The operation is complete if in "rap.e4.export.demo" there are no dependencies e
 Go to rap.e4.export.demo > plugin.xml and click on Overview > Update the classpath settings.
 In the "Problems" View of Eclipse you should have no errors.
 
+![Plugin launch](https://github.com/becavin-lab/rap-e4-war-export/blob/main/wiki/plugin_launch.png)
+
+
 5 - Click on "Launch a RAP application" ! A browser at the adress : http://127.0.0.1:10888/ (the port might be different) should open. Update the browser, you should have an Eclipse RAP browser.
+
+![launch](https://github.com/becavin-lab/rap-e4-war-export/blob/main/wiki/launch.png)
 
 More explanation, when running your plug-ins it uses the file "rap.e4.export.demo.launch" to configure all run configuration (port, VM options, bundles dependencies).
 IF SOMETHING IS WRONG AND THE WEBSITE IS NOT OPENING IT IS MOSTLY DUE TO "rap.e4.export.demo.launch".
@@ -53,6 +58,8 @@ Select rap-e4-war-export > pom.xml (at the root of your main project).
 Right click on Run as > Maven build... and in Goals write "clean install"
 It should create the war file after few minutes.
 It can be found in rap.e4.export.feature/target/rap-e4-demo.war
+
+![target](https://github.com/becavin-lab/rap-e4-war-export/blob/main/wiki/target.png)
 
 The name of the .war is a parameter which can be fixed in: rap.e4.export.feature/pom.xml
 with webapp.name property.
